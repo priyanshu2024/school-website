@@ -1,0 +1,594 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font: 18px arial;
+    line-height:1.6em ;
+    letter-spacing: .7px;
+}
+.logo{
+    width: 40%;
+    padding-left: 10%;
+    float: left;
+    
+}
+.menu{
+    float: right;
+    width: 60%;
+   margin-top: 3.5%;
+   padding-left: 12%;
+    
+
+}
+.menu ul li{
+    list-style: none;
+    float: left;
+    padding-left: 40Px;
+    
+}
+.menu ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px 10px;
+}
+nav li a:hover{
+    background-color: rgb(173, 197, 218);
+    border-radius: 10px 0 10px 0;
+    
+    
+}
+.clear{
+    clear: both;
+}
+.overlay{
+    text-align: center;
+    padding-top: 20px;
+    background-color:rgba(0,0,0,.1);
+    height:100%;
+    padding-top: 125px;
+    padding-bottom: 60px;
+    color:green;
+}
+.banner{
+    padding:20px;
+    background: url(../image/ab.jpg);
+    background-size: 100% 100%;
+    width: 100%;
+    height: 440px;
+    text-align: center;
+   }
+.banner h2{
+text-transform: uppercase;
+}
+h2{
+    color:darkblue;
+    font-size: 22px;
+    padding-bottom: 10px;
+}
+.banner .btnn{
+        padding: 15px 35px;
+        border: none;
+        border-radius: 5px;
+        background-color: cadetblue;
+}
+.product{
+        padding-bottom: 30px;
+        padding-top: 30px;
+        text-align: center;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+.product h2{
+        margin-bottom: 25px;
+        text-transform: uppercase;
+        padding: 30px;
+        
+    }
+    
+    .product p{
+        font-size: 16px;
+    }
+    
+    .product div{
+        width:33%;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    
+    .product img{
+        width: 100px;
+    }
+    
+    .product h3{
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .left{
+        width:33%;
+        float:left;
+    }
+    .aboutus div{
+        width: 40%;
+    }
+    .aboutus{
+        padding-bottom: 10px;
+        padding-top: 10px;
+        padding-left: 20%;
+        background-color:grey;
+    }
+    .aboutus h2{
+        margin-bottom: 20px;
+        padding-top: 90px;
+    }
+    .aboutus img{
+        width: 80%;
+        margin-bottom: 30px;
+    }
+    .aboutus p{
+        font-size: 16px;
+        padding-bottom: 20px;
+    }
+    .btnn{
+        
+        padding: 10px 20px;
+        border-radius: 5px;
+        border: none;
+    }
+    .elon{
+    
+        padding-left: 15%; 
+        padding-right: 15%;
+        padding-top: 35px;
+        padding-bottom: 40px;
+       
+    }
+    .elon img{
+        width: 130px;
+        height: 130px;
+        border-radius: 50%;
+    }
+    .elon .img{
+        width: 20%;
+        padding-top: 24px;
+    }
+    .elon .text{
+        width: 80%;
+        font-size: 14px;
+    }
+    .elon h4{
+      
+        padding-left:2%;
+        padding-bottom: 5px;
+        color:midnightblue;
+    }
+    .elon p{   
+        
+        padding-left: 16px;
+    }
+    .clear{
+        clear: both;
+    }
+    .abc {
+        width:100%;
+        background-color:rgb(252, 241, 41);
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 35%;
+    }
+    .btn{
+        
+        height: 38px;
+        width: 120px;
+        border-radius: 5px;
+        border: 8px;
+        border-color: white;
+    }
+    .box{
+        height: 40px;
+        width: 300px;
+        border-radius: 8px;
+        
+        border-color: white;
+        padding-left: 25px;
+    }
+    .over{
+        height:100%;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        
+    }
+    footer{
+        padding-left: 15%;
+        padding-top: 40px;
+        padding-bottom: 25px;
+        background: #dedede;
+    }
+    .ashish div{
+        width:33%;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    
+    
+    .ashish .text{
+        font-size: 14px;
+       
+        padding-right: 10%;
+    }
+    footer li{
+        list-style: none;
+    }
+    
+    footer a{
+        text-decoration: none;
+        color: #000;
+        font-size: 14px;
+    }
+    .copyright{
+        text-align:center;
+        background: black;
+        color: #eee;
+        padding: 10px;
+        font-size: 16px;
+    }
+    .our{
+        padding-left: 10%; 
+        padding-right: 10%;
+        padding-top: 60px;
+        
+        text-align: center;
+        background: rgb(35, 138, 129);
+        
+    }
+    .our h1{
+        color: midnightblue;
+        font-family: Arial, Helvetica, sans-serif;
+        
+    }
+    
+    .our img{
+        width: 100%;
+        height: 250px;
+        border: 7px solid #efefef;
+        border-radius: 5px;
+        filter: brightness(0.8);
+        transition: .5s;
+    }
+    .left{
+        float: left;
+    }
+    .our img:hover{
+        filter: brightness(1);
+    }
+    .our div{
+        width: 33%;
+        padding: 20px;
+    }
+    .our a{
+        text-decoration: none;
+        color: #000;
+    }
+    .leader{
+    
+        padding-left: 10%; 
+        text-align: center;
+        padding-top: 15px;
+        padding-bottom: 25px;
+        background-color: rgb(172, 194, 172);
+       
+    }
+    .leader img{
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+    }
+    .leader .img{
+        width: 410px;
+        padding-top: 37px;
+        
+    }
+    .leader .text{
+        width: 80%;
+        font-size: 14px;
+    }
+    .leader h3{
+        padding-top: 20px;
+        font-size: 28px;
+        padding-right: 100px;
+        color: navy;
+        
+    }
+    .leader h4{
+        padding-bottom: 5px;
+        color:midnightblue;
+    }
+    .clear{
+        clear: both;
+    }
+    .all{
+        background-color: rgb(249, 245, 245);
+    }
+    .abcd{
+        
+        padding-top:20px;
+        padding-left:11.2%;
+    }
+    .abcd p{
+        font-size: 12px;
+        
+    }
+    .abcd h3{
+        padding-top:15px;
+        padding-bottom: 15px;
+    }
+    iframe{
+        padding-top:15px;
+        padding-left: 150px;
+        
+    }
+    .loginform{
+        width: 50%;
+        margin-left: 11%;
+        padding-left: 20px;
+        background-color: white;
+        box-shadow: 0 0 5px;
+    }
+    .loginform p,.van p{
+        font-size: 14px;
+        padding-top: 10px;
+    }
+    form input,textarea{
+        outline-color: dodgerblue;
+        
+    }
+    loginform form h4{
+        padding-bottom: 15px;
+        padding-top: 10px;
+    }
+    loginform form hr{
+        border: .1px solid rgb(192, 189, 189);
+    }
+    .van{
+        margin-top: 25px;
+        width: 50%;
+        margin-left: 11%;
+        padding-left: 20px;
+        margin-bottom: 30px;
+        background-color: white;
+        box-shadow: 0 0 5px;
+    }
+    .van button{
+        padding:4px 20px;
+        border-radius: 5px;
+        margin-bottom: 20px;
+        border: none;
+        background-color: rgb(214, 200, 200);
+    }
+    .van h3{
+        padding-top:10px;
+    }
+    
+    
+    .admission{
+        background-color: rgb(251, 245, 245);
+        font-size: 14px;
+        margin-left: 11%;
+        margin-right: 18%;
+        opacity: .8;
+    }
+    .ad{
+        margin:10px;
+        padding: 5px;
+        float: left;
+        border: 3px solid rgb(167, 94, 94);
+        border-radius: 8px;
+    }
+    .ad p{
+        font-size: 12px;
+       
+    }
+   
+    .add{
+        float: right;
+        width: 41%;
+       padding-top: 18px;
+        
+    }
+    .add p{
+        padding-left: 10px;
+    }
+    .bttnn{
+        background-color: white;
+        margin-top: 10px;
+        padding: 8px 20px;
+        border-radius: 5px;
+        margin-left: 32px;
+        float: left;
+        
+    }
+    .add a{
+        text-decoration: none;
+    }
+   /* select{
+        padding: 5px 8px;
+        border-radius: 5px;
+        margin-left: 25px;
+    }*/
+    .cat{
+        background-color: rgb(251, 245, 245);
+        font-size: 14px;
+        margin-left: 11%;
+        margin-right: 18%;
+        opacity: .8;
+    }
+    .cri h2{
+        
+        padding-left: 13px;
+        
+    }
+    .year{
+        float: right;
+        width: 39.5%;
+       padding-top: 18px;
+        
+    }
+    .cri{
+        margin:10px;
+        padding: 5px;
+        float: left;
+        
+    }
+    .bat{
+        background-color: rgb(251, 245, 245);
+        font-size: 14px;
+        margin-left: 11%;
+        margin-right: 18%;
+        opacity: .8;
+    }
+    .bat h4{
+        color: midnightblue;
+        font-size:18px;
+    }
+    .sri{
+        margin:10px;
+        padding: 5px;
+        float: left;
+        
+    }
+    .day{
+        float: right;
+        width: 39.5%;
+       padding-top: 18px;
+       padding-left: 30px;
+        
+    }
+    .lead{
+    
+        margin-left: 11%;
+        margin-right: 18%;
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        opacity: .8;
+        background-color: rgb(251, 245, 245); 
+    }
+    .lead p{
+        font-size: 14px;
+    }
+    .lead h4{
+        padding-bottom: 10px;
+    }
+    .bat p{
+        padding-left: 20px;
+    }
+    .bat ul li{
+        list-style: none;
+        
+    }
+    .bat{
+        margin-bottom: 10px;
+    }
+    .day h4{
+        padding-left: 50px;
+    }
+    .main{
+        float: left;
+        width: 80%;
+       padding-top: 20px;
+       padding-left: 11%;
+    }
+    .mad{
+        background-color: rgb(232 232 232 / 87%);;
+        width: 75%;
+        margin-left: 15%;
+        padding-left: 20px;
+        margin-top: 10px;
+        padding-top: 10px;
+        box-shadow: 0 0 10px;
+       
+    }
+    .mad input{
+        margin-left: 10px;
+    }
+    .reg p{
+       
+        font-size: 14px;
+        text-align: center;
+        color: red;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .mad input{
+        margin-bottom: 10px;
+        padding:5px
+    }
+    .father{
+        float: left;
+        padding-top: 20px;
+    }
+    .mother{
+        float: right;
+    padding-right: 80px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    }
+    fieldset{
+        padding: 10px;
+        border: 2px solid rgb(123, 121, 121);
+        margin-right: 20px;
+    }
+    .bro{
+        padding-top: 10px;
+    }
+    .code{
+        text-align: center;
+        color: red;
+        padding-bottom: 20px;
+        margin-bottom: 30px;
+    }
+    .lead a{
+        text-decoration: none;
+    }
+    .contain div{
+        float: left;
+    }
+    .col-3{
+        width:30%;
+    }
+    .col-9{
+        width:30%;
+    }
+    .col-6{
+        width: 15%;
+    }
+    .xyz{
+        float: left;
+        width: 53%;
+    }
+    .xyz input{
+        margin-left: 165px;
+        ;
+    }
+    .pan{
+        width: 43%;
+        float: right;
+    }
+    .pan input{
+        margin-left: 10px;
+    }
+    .xyz select,.pan select{
+        margin-top: 10px;
+        margin-left:5px;
+    }
+    .tap{
+        margin-top: -5px;
+    }
+    .company input{
+        margin-left: 80px;
+    }
+    .company p{
+        padding-top: 10px;
+    }
+    
